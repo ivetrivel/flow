@@ -1,7 +1,12 @@
 import { MarkerType } from 'reactflow';
 
-
-export const edges = [
+// read from the localstorage 
+var localStorageEdges  = localStorage.getItem("edges");
+if(localStorageEdges!== null) {
+    localStorageEdges = JSON.parse(localStorageEdges);
+}
+else {
+    localStorageEdges = [
     {
         "source": "24",
         "target": "20",
@@ -19,12 +24,7 @@ export const edges = [
         markerEnd: {
             type: MarkerType.Arrow,
         }
-    },{
-        id: '1->2',
-        source: '1',
-        target: '2',
-        type: 'smoothstep',
-      },
+    },
     {
         "source": "22",
         "target": "20",
@@ -163,3 +163,6 @@ export const edges = [
         }
     }
 ]
+}
+
+export const edges = localStorageEdges;
