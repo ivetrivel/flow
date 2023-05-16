@@ -1,4 +1,7 @@
 
+<details>
+  <summary>Do not expand</summary>
+  
 
 <div align="center">
   <a href="https://github.com/imvetri/ui-editor">
@@ -114,4 +117,5 @@ This project is built with one happy path in mind and needs a lot of effort to i
 * reachout to me https://twitter.com/VetrivelShanmu3 or https://twitter.com/Imvetri1 or email me at svetrivel.91@gmail.com
 
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+</details>
